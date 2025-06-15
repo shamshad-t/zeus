@@ -30,5 +30,10 @@ def contact():
         # Add email or data saving logic here
     return render_template('contact.html', sent=sent, name=name)
 
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
+# ✅ THIS IS IMPORTANT FOR RENDER
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port)
