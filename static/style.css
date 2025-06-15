@@ -1,0 +1,4 @@
+body { background: #f2f2f2; }
+.navbar-brand { font-weight: bold; color: gold !important; }
+.hero { position: relative; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+.card-img-top { height: 200px; object-fit: cover; }

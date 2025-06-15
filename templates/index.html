@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zeus Gym | Train Like a God</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+    .hero {
+      background: url('https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center/cover no-repeat;
+      color: white;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .hero h1 { font-size: 4rem; font-weight: bold; }
+    .section-title { font-weight: bold; font-size: 2rem; margin-bottom: 20px; }
+    .service-icon { font-size: 2rem; color: goldenrod; }
+    footer { background-color: #000; color: white; text-align: center; padding: 20px 0; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ZEUS GYM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipment">Equipment</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero text-center">
+  <div class="container">
+    <h1>Train Like a God</h1>
+    <p class="lead">Unleash your inner strength at Zeus Gym</p>
+    <a href="#contact" class="btn btn-warning btn-lg mt-3">Join Now</a>
+  </div>
+</header>
+
+<!-- About -->
+<section id="about" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title">About Zeus Gym</h2>
+    <p>At Zeus Gym, we believe in sculpting legends. Our expert trainers, world-class equipment, and motivating environment help you conquer your fitness goals.</p>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Our Services</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="mb-3 service-icon">💪</div>
+        <h5>Personal Training</h5>
+        <p>One-on-one training with elite professionals.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="mb-3 service-icon">🏋️‍♂️</div>
+        <h5>Weight Training</h5>
+        <p>Top-of-the-line equipment and advanced techniques.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="mb-3 service-icon">🥗</div>
+        <h5>Nutrition Guidance</h5>
+        <p>Tailored diet plans from certified nutritionists.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Equipment -->
+<section id="equipment" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center">Our Equipment</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1683120911890-386d99bbd3b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRyZWRtaWxsfGVufDB8fDB8fHww" class="card-img-top" alt="Treadmill">
+            <div class="card-body text-center"><h5>Treadmill</h5></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1597076537061-a6b58163aa45?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZHVtYmVsbHN8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Dumbbells">
+            <div class="card-body text-center"><h5>Dumbbells</h5></div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="card-img-top" alt="Elliptical">
+            <div class="card-body text-center"><h5>Elliptical</h5></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+  
+
+<!-- Contact -->
+<section id="contact" class="py-5 text-center">
+  <div class="container">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Ready to transform your body? Call us at <strong>+91 98765 43210</strong> or email <strong>zeus@fitness.com</strong></p>
+    <a href="mailto:zeus@fitness.com" class="btn btn-dark">Email Us</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2025 Zeus Gym. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
